@@ -21,17 +21,7 @@ Este repositorio contiene el desarrollo del **Laboratorio 02: LinearLayout, Recu
 ---
 
 ## 📂 Estructura del Proyecto
-<pre> ```plaintext 
-app/
-├── java/com/miempresa/usocontrolesv1
-│ ├── MainActivity.kt 
-│ └── Calculadora.kt 
-│ └── Promedio.kt 
-│
-└── res/layout
-├── activity_main.xml 
-└── activity_calc.xml
-└── activity_promedio.xml
+<pre> 
 
 UsoControlesv4/
 │
@@ -68,9 +58,7 @@ UsoControlesv4/
 ├── settings.gradle
 └── README.md
 
-```</pre> 
-
-<pre> ```plaintext UsoControlesv4/ │ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/miempresa/usocontrolesv1/ │ │ │ │ ├── MainActivity.kt # Caso A: Uso de Controles │ │ │ │ ├── Calculadoray.kt # Caso A: Calculadora │ │ │ │ └── Promedio.kt # Caso B: Promedio Final │ │ │ │ │ │ │ ├── res/ │ │ │ │ ├── layout/ │ │ │ │ │ ├── activity_main.xml # Layout principal │ │ │ │ │ ├── activity_calc.xml # Layout para cálculo │ │ │ │ │ └── activity_promedio.xml # Layout para promedios │ │ │ │ │ │ │ │ │ ├── values/ │ │ │ │ │ ├── colors.xml # Colores de la app │ │ │ │ │ ├── strings.xml # Textos usados │ │ │ │ │ └── themes.xml # Tema de la app │ │ │ │ │ │ │ │ │ └── mipmap-*/ # Íconos de la app │ │ │ │ │ │ │ └── AndroidManifest.xml # Registro de Activities │ │ │ │ │ └── test/ # (opcional) pruebas unitarias │ │ │ ├── build.gradle (Module: app) │ └── proguard-rules.pro │ ├── build.gradle (Project) ├── settings.gradle └── README.md ``` </pre>
+</pre> 
 
 ---
 
