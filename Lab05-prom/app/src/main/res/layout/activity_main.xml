@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promedio Final del Estudiante"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Entradas de teoría -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notas de Teoría" />
+        <EditText android:id="@+id/t1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Teoría 1" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/t2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Teoría 2" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/t3" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Teoría 3" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/t4" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Teoría 4" android:inputType="numberDecimal"/>
+
+        <!-- Entradas de laboratorio -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notas de Laboratorio" android:paddingTop="8dp"/>
+        <EditText android:id="@+id/l1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 1" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 2" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l3" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 3" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l4" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 4" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 5" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l6" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 6" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l7" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 7" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/l8" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lab 8" android:inputType="numberDecimal"/>
+
+        <!-- Botones -->
+        <Button android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Promedio"
+            android:layout_marginTop="12dp"/>
+
+        <Button android:id="@+id/btnSustitutorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar Sustitutorio"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/lblResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado:"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="12dp"/>
+    </LinearLayout>
+</ScrollView>
