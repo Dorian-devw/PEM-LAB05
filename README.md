@@ -21,7 +21,7 @@ Este repositorio contiene el desarrollo del **Laboratorio 02: LinearLayout, Recu
 ---
 
 ## 📂 Estructura del Proyecto
-
+<pre> ```plaintext 
 app/
 ├── java/com/miempresa/usocontrolesv1
 │ ├── MainActivity.kt 
@@ -67,6 +67,8 @@ UsoControlesv4/
 ├── build.gradle (Project)
 ├── settings.gradle
 └── README.md
+
+```</pre> 
 ---
 
 ## 🧩 Casos Desarrollados
