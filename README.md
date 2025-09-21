@@ -33,7 +33,40 @@ app/
 └── activity_calc.xml
 └── activity_promedio.xml
 
-
+UsoControlesv4/
+│
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/miempresa/usocontrolesv1/
+│   │   │   │   ├── MainActivity.kt                 # Uso de Controles
+│   │   │   │   └── Calculadoray.kt   # Caso A: Calculadora
+│   │   │   │   └── Promedio.kt   # Caso B: Promedio
+│   │   │   │
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_main.xml                # Layout principal - Caso A
+│   │   │   │   │   └── activity_calc.xml                # Layout para cálculo
+│   │   │   │   │   └── activity_promedio.xml            # Layout para promedios
+│   │   │   │   │
+│   │   │   │   │
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml                     # Colores de la app
+│   │   │   │   │   ├── strings.xml                    # Textos usados (Mi Primera Aplicación, etc.)
+│   │   │   │   │   └── themes.xml                     # Tema de la aplicación
+│   │   │   │   │
+│   │   │   │   └── mipmap-*/                           # Íconos de la app (launcher)
+│   │   │   │
+│   │   │   └── AndroidManifest.xml                     # Registro de Activities
+│   │   │
+│   │   └── test/                                       # (opcional) pruebas unitarias
+│   │
+│   ├── build.gradle (Module: app)
+│   └── proguard-rules.pro
+│
+├── build.gradle (Project)
+├── settings.gradle
+└── README.md
 ---
 
 ## 🧩 Casos Desarrollados
